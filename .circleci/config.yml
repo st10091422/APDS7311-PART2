@@ -13,6 +13,19 @@ jobs:
       - run:
           name: Run Tests
           command: echo \"No test specified in package.json\"  # Navigate to backend and run tests
+
+  build:
+    docker:
+      - image: circleci/node:14
+    steps:
+      - checkout  # Pulls the repository code
+      - run:
+          name: Install Dependencies
+          command: cd globalPaymentsPlatform/backend && npm install  # Install dependencies in backend
+      - run:
+          name: Build Project
+          command: cd globalPaymentsPlatform/backend && npm run build  # Build the project
+
 workflows:
   version: 2
   build_and_test:
