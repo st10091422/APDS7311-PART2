@@ -4,9 +4,19 @@ jobs:
     docker:
       - image: circleci/node:14
     steps:
-      - checkout
-      - run: npm install
-      - run: npm test
+      - checkout  # Pulls the repository code
+      
+      - run:
+          name: Navigate to Backend Directory
+          command: cd backend
+      
+      - run:
+          name: Install Dependencies
+          command: npm install
+      
+      - run:
+          name: Run Tests
+          command: npm test
   build:
     docker:
       - image: circleci/node:14
