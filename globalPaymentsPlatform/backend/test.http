@@ -1,10 +1,11 @@
-POST https://localhost:3000/api/user/register HTTP/1.1
+POST https://localhost:5000/api/user/register HTTP/1.1
 content-type: application/json
 
 {
-    "fullName": "user",
-    "accountNumber": "0123756777",
-    "idNumber": "0123456788872",
+    "username": "usere",
+    "fullName": "user e",
+    "accountNumber": "0123711777",
+    "idNumber": "0123456711882",
     "password": "@User123"
 } 
 
