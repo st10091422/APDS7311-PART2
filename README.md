@@ -8,7 +8,6 @@ JS Demons Payments Portal is a sleek and modern international payment system des
 ## REPO USED TO RUN CIRCLECI AND SONQUBE TESTS 
 https://github.com/st10091422/APDS7311-PART2.git
 
-
 ## Features
 - **User Registration & Login:** Secure authentication system with username and password.
 - **International Payment Options:** SWIFT-based international payments with support for various currencies.
