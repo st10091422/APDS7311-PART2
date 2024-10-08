@@ -86,6 +86,9 @@ npm install
 ```
 
 ### 5. Running the App
+Follow these steps below to get the app up and running or watch the video here:
+
+https://drive.google.com/drive/folders/1jDQK7Gx0coSoVBcpDMRGbLRVPnSbSX6U?usp=sharing
 
 #### Start the Frontend (React)
 In the client directory, start the frontend:
