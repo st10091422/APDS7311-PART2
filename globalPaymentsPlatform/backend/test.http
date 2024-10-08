@@ -2,10 +2,10 @@ POST https://localhost:5000/api/user/register HTTP/1.1
 content-type: application/json
 
 {
-    "username": "userre",
-    "fullName": "user re",
-    "accountNumber": "0223711777",
-    "idNumber": "0223456711882",
+    "username": "userpe",
+    "fullName": "user pe",
+    "accountNumber": "0228811777",
+    "idNumber": "0223488711882",
     "password": "@User123"
 } 
 
