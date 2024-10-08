@@ -5,6 +5,9 @@
 
 JS Demons Payments Portal is a sleek and modern international payment system designed for banks. Customers can securely log in, register, and make international payments using the SWIFT method. This system ensures data security and integrity with robust encryption and validation.
 
+## REPO USED TO RUN CIRCLECI AND SONQUBE TESTS 
+https://github.com/st10091422/APDS7311-PART2.git
+
 
 ## Features
 - **User Registration & Login:** Secure authentication system with username and password.
@@ -88,7 +91,7 @@ npm install
 In the client directory, start the frontend:
 
 ```bash
-cd client
+cd src
 npm start
 ```
 
@@ -99,7 +102,7 @@ In the server directory, start the backend:
 
 ```bash
 cd ../server
-npm start
+node server.js
 ```
 
 The backend API will run at http://localhost:5000/.
@@ -123,4 +126,25 @@ Once the app is up and running:
 └── README.md             # Project documentation
 ```
 
-<!-- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/X7Vf0Ahx) -->
+
+## Circle Ci test screenshots
+
+![image](https://github.com/user-attachments/assets/bba9c488-7880-4a22-95e0-c13b45aa3736)
+
+![image](https://github.com/user-attachments/assets/2501b697-848e-423c-bf24-6d35604bf242)
+
+![image](https://github.com/user-attachments/assets/b4d38678-b52b-41df-b8ea-3e08442d759b)
+
+![image](https://github.com/user-attachments/assets/c262b453-9306-4456-b664-fc8b7cfb8963)
+
+
+
+## Sonarqube (sonarcloud) test screenshots
+
+![image](https://github.com/user-attachments/assets/ef2165a0-76e5-478b-b3bb-ec2317c839c9)
+
+![image](https://github.com/user-attachments/assets/6dde9cbd-107e-4cc2-8a07-5d8214490788)
+
+![image](https://github.com/user-attachments/assets/be7cf33d-015a-43d0-a0cd-e4a5814b4881)
+
+
