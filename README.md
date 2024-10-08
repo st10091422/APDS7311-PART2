@@ -141,7 +141,6 @@ Once the app is up and running:
 ![image](https://github.com/user-attachments/assets/c262b453-9306-4456-b664-fc8b7cfb8963)
 
 
-
 ## Sonarqube (sonarcloud) test screenshots
 
 ![image](https://github.com/user-attachments/assets/ef2165a0-76e5-478b-b3bb-ec2317c839c9)
